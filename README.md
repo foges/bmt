@@ -1,5 +1,5 @@
-Binary Matrix (BMT) 
-==================
+Binary Matrix (BMT) file format
+===============================
 
 BMT is a binary (as opposed to ASCII) format for storing matrices. It supports
 
