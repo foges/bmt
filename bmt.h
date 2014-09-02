@@ -181,7 +181,7 @@ int ReadBmtDense(const char *fname, char *order, I *m, I *n, T **data) {
   }
 
   // Read m, n and nnz.
-  size_t m_, n_, nnz_;
+  size_t m_, n_;
   if (!flag && kIPrec == 32) {
     int32_t size_buf[2];
     count = fread(size_buf, sizeof(size_buf), 1, fid);
