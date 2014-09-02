@@ -1,14 +1,14 @@
 Binary Matrix (BMT) 
 ==================
 
-BMT is a binary (as opposed to ASCII) format for storing sparse matrices. It supports
+BMT is a binary (as opposed to ASCII) format for storing matrices. It supports
 
 + Sparse and dense matrices.
 + Row major (resp. CSR) and column major (resp. CSC) matrices.
 + Double or single precision entries.
 + 32- or 64-bit integer indices.
 
-We provide a MATLAB interface, making it easy to export matrices from MATLAB to C++ and vice versa.
+We provide a MATLAB interface, making it easy to export matrices from MATLAB to C++ and vice versa. The format is intended to be exceedingly simple and as a result does not support compression.
 
 Examples
 ========
