@@ -158,7 +158,7 @@ int main() {
       "Fail, integer precision invalid.",
       "Fail, floating point precision invalid.",
       "Fail, endianness invalid.",
-      "Fail, matrix type invald",
+      "Fail, matrix type invald.",
       "Fail, unsupported system, sizeof(float) != 4.",
       "Fail, unsupported system, sizeof(double) != 8.",
       "Fail, did not read m, n, or nnz correctly.",
