@@ -33,7 +33,7 @@ if base ~= 0 && base ~= 1
 end
 
 m = size(A, 1);
-[col, row, val] = find(A');
+[col, row, val] = find(A.');
 
 col_ind = col - 1 + base;
 row_ptr = [0; cumsum(histc(row, 1:m))] + base;
