@@ -16,7 +16,7 @@ Examples are provided for both MATLAB and C++. For MATLAB specific examples see 
 
 We provide two examples of exporting matrices in MATLAB and loading them in C++. 
 
-####Sparse matrix example
+### Sparse matrix example
 
 
 To export a sparse matrix from MATLAB, type
