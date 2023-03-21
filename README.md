@@ -41,7 +41,7 @@ Upon exiting, variables take the following values
 + `row_ptr`: Pointer to beginning of each rows.
 
 
-####Dense matrix example
+### Dense matrix example
 
 The syntax in MATLAB is the same for sparse and dense matrices:
 ```
